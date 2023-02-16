@@ -1,0 +1,7 @@
+package com.newlecture.web.service;
+
+public class DefaultMenuService implements MenuService {
+
+	P
+	
+}

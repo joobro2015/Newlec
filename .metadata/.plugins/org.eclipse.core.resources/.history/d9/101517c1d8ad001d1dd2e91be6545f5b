@@ -1,0 +1,16 @@
+package com.newlecture.web.repository.jdbc;
+
+import java.util.List;
+
+import com.newlecture.web.entity.Menu;
+import com.newlecture.web.service.MenuService;
+
+public class jdbcMenuDao implements MenuService {
+
+	@Override
+	public List<Menu> getList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

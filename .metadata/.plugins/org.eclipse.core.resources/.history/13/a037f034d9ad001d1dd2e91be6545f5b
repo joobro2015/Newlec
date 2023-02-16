@@ -1,0 +1,16 @@
+package com.newlecture.web.repository.jdbc;
+
+import java.util.List;
+
+import com.newlecture.web.entity.Menu;
+import com.newlecture.web.repository.MenuDao;
+
+public class JdbcMenuDao implements MenuDao {
+
+	@Override
+	public List<Menu> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
