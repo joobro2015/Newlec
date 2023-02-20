@@ -23,7 +23,6 @@ public class JdbcMenuDao implements MenuDao {
 	
 		String query = "";
 		String sql = String.format("select * from member where nicname like '%s'", "%"+query+"%") ;
-//		List<Menu> list = new ArrayList<>();
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			String url = "jdbc:oracle:thin:@oracle.newlecture.com:1521/xepdb1";
@@ -32,7 +31,6 @@ public class JdbcMenuDao implements MenuDao {
 			Statement st = con.createStatement();
 			ResultSet rs = st.executeQuery(sql);
 			
-//			Menu[] menus = new Menu[100];
 			
 			
 			
